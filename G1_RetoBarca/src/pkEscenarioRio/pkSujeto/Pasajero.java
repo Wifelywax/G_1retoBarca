@@ -1,18 +1,25 @@
 package pkEscenarioRio.pkSujeto;
 
 public abstract class Pasajero {
-    private boolean sabeNavegar;
+   
+    private boolean subioAlBarco;
 
-    public boolean getSabeNavegar(){ 
-        return sabeNavegar;
+    public Pasajero() {
+        this.subioAlBarco = false;
     }
-    public void setSabeNavegar(boolean sabeNavegar) {
-        this.sabeNavegar = sabeNavegar;
-    }
-    public abstract boolean esPeligroso(Pasajero otro);
+
     
+    public boolean getSubioAlBarco() {
+        return subioAlBarco;
+    }
+
+    
+    public void setSubioAlBarco(boolean subioAlBarco) {
+        this.subioAlBarco = subioAlBarco;
+    }
+
     @Override
-        public String toString() {
+    public String toString() {
         return this.getClass().getSimpleName();
     }
 }
