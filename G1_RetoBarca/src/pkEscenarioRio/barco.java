@@ -27,7 +27,7 @@ public class Barco {
 
         String nombrePasajero = (pasajero != null) ? pasajero.toString() : "nadie";
         
-        System.out.printf("El barco comienza el viaje. El Vikingo rema llevando a %s.\n", nombrePasajero);
+        System.out.printf(" El barco comienza el viaje. El Vikingo rema llevando a %s.\n", nombrePasajero);
         
        
         if (this.direccionViaje.equals("De Derecha a Izquierda")) {
@@ -37,15 +37,15 @@ public class Barco {
         }
 
       
-        System.out.printf("Viaje completado. Nuevo estado de la dirección del barco: %s.\n", this.direccionViaje);
+        System.out.printf(" Viaje completado. Nuevo estado de la dirección del barco: %s.\n", this.direccionViaje);
     }
 
    
     public void dejarpasajero(Pasajero pasajero) {
         if (pasajero != null) {
-            System.out.printf("%s ha desembarcado del barco.\n", pasajero.toString());
+            System.out.printf("⬇️ %s ha desembarcado del barco.\n", pasajero.toString());
         } else {
-            System.out.println("Nadie desembarcó.");
+            System.out.println("⬇️ Nadie desembarcó.");
         }
     }
     
