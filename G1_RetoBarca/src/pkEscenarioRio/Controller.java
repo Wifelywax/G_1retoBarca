@@ -24,7 +24,20 @@ public class Controller {
         Vikingo vikingo = new Vikingo();
 
         // Todos empiezan en la orilla izquierda (cruzoAlOtroLado = false por defecto)
-
+        System.out.println("-----ESCUELA POLITECNICA NACIONAL------");
+		System.out.println("-----------------JUEGODELRIO-------------");
+		System.out.println("--------------Programacion II----------");
+		System.out.println("------------------GRUPO 1--------------");
+        System.out.println("---------------------------------------");
+		System.out.println("Integrantes: --------------------------");
+		System.out.println("  Alban Salazar Emilio Fabian----------");
+		System.out.println("  Alcivar Gomez Alan Nahin-------------");
+        System.out.println("  Almeida Reyes Anthonny Joel----------");
+		System.out.println("  Alomoto Granizo Ariana Thais---------");
+        System.out.println("  Astudillo Campos Josue Sebastian-----");
+		System.out.println("Curso: GR2SW---------------------------");
+		System.out.println("---------------------------------------");
+		System.out.println("_______________________________________\n");  
         System.out.println("=== JUEGO DEL RIO: Lobo - Vikingo - Uva - Caperucita ===");
         System.out.println("Reglas:");
         System.out.println("- El barco puede llevar hasta 2 personajes (incluyendo al Vikingo).");
