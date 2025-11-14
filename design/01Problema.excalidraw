@@ -1,0 +1,51 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "27dOKX24fghX4Y5llDYpK",
+      "type": "text",
+      "x": 250.5142822265625,
+      "y": -111.11428833007812,
+      "width": 1105.819091796875,
+      "height": 150,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a0",
+      "roundness": null,
+      "seed": 346792966,
+      "version": 804,
+      "versionNonce": 82481030,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1763136387585,
+      "link": null,
+      "locked": false,
+      "text": "R1: El jugador seleccione a los personajes que subiran al barco\nR2: La aplicacion muestra los personajes disponibles\nR3: La aplicacion verifica si en el barco esta el vikingo para poder viajar, si no pierde\nR4: LA aplicacion muestra que se realiza el viaje y deja al personaje seleccionado al otro lado del rio, no el vikingo\nR5: La aplicacion muestra que el vikingo se vuelve al otro lado del rio y se baja\nR7: Se vuelve a empezar desde el R2 hasta que todos los personajes hayan cruzado el rio.",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "R1: El jugador seleccione a los personajes que subiran al barco\nR2: La aplicacion muestra los personajes disponibles\nR3: La aplicacion verifica si en el barco esta el vikingo para poder viajar, si no pierde\nR4: LA aplicacion muestra que se realiza el viaje y deja al personaje seleccionado al otro lado del rio, no el vikingo\nR5: La aplicacion muestra que el vikingo se vuelve al otro lado del rio y se baja\nR7: Se vuelve a empezar desde el R2 hasta que todos los personajes hayan cruzado el rio.",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
