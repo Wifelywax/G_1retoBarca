@@ -15,7 +15,7 @@ public class Controller {
     private static boolean barcoEnIzquierda = true; // true = izquierda, false = derecha
     private static Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public void inicializarJuego() {
 
         // Crear personajes
         Lobo lobo = new Lobo();
@@ -74,7 +74,7 @@ public class Controller {
                 break;
             }
 
-            String[] partes = linea.split("\\s+");
+            String[] partes = linea.split("\s+");
             if (partes.length == 0 || partes.length > 2) {
                 System.out.println("Debes elegir 1 o 2 personajes válidos.");
                 continue;

@@ -1,8 +1,8 @@
-// import pkEscenarioRio.Controller;
+import pkEscenarioRio.Controller;
 
-// public class App {
-//     public static void main(String[] args) {
-//         Controller controller = new Controller();
-//         controller.ejecutarEscenario();
-//     }
-// }
+public class App {
+    public static void main(String[] args) {
+        Controller controller = new Controller();
+        controller.inicializarJuego();
+    }
+}
